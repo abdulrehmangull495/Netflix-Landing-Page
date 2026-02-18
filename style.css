@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max (1200px, 100vw);
+}
+
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    max-width: 60vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 114px;
+}
+
+span button {
+    z-index: 10;
+    width: 114px;
+}
+
+.hero {
+    height: calc(100%-100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    gap: 23px;
+    padding: 210px;
+    align-items: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(49, 48, 48);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(116, 112, 112);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+
+
+}
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 4px;
+    border: 1 px solid white;
+    cursor: pointer;
+}
+
+
+.btn-red {
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 9px;
+
+
+
+}
+
+
+
+.main input {
+    font-size: 12px;
+    padding: 20px 101px 15px 28px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 900;
+    font-size: 12px;
+    border: 1px solid rgba(23, 23, 23, 0.5);
+}
+.first{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+}
+.secimg{
+    position: relative;
+}
+.secimg Img{
+    width: 555px;
+    position: relative;
+  z-index: 3;
+  font-size: larger;
+  overflow: hidden;
+
+}
+.secimg video{
+    position: absolute;
+    top: 100px;
+    right: 0;
+   
+    
+
+}
+section.first> div{
+    display:flex ;
+    flex-direction: column;
+    padding: 34px 0;
+    
+}
+section.first> div :nth-child(1){
+    font-size: 48px;
+    
+}
+section.first> div :nth-child(2){
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+    padding: 4px;
+    font-size: 60px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    padding: 28px;
+    margin: 24px  auto;
+    max-width: 70vw;
+    justify-content: space-between;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 2s ease-out;
+}
+
+.faqbox:hover{
+  
+    background-color: rgb(85, 25, 25);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+
+    padding: 20px;
+    
+}
+@media screen and (max-width:1300px) {
+    .first{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    
+
+    
+    }
+}
+
+
+.footer-items{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+footer a{
+    font-size: 14px;
+    color: white;
+}
